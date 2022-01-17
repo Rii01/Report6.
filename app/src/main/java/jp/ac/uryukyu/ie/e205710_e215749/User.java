@@ -10,7 +10,7 @@ public class User{
      * ユーザがジャンケンの手を記入するメソッド。
      * @return 0,1,2の数字を返す。
      */
-    public static int getUser(){
+    public int getUser(){
         Scanner write = new Scanner (System.in);
 
         while(true){

@@ -1,6 +1,13 @@
 package jp.ac.uryukyu.ie.e205710_e215749;
-
+/**
+ * ジャンケンを5回繰り返し、勝敗を決めるクラス
+ * @author 那覇
+ */
 public class FiveBatlle {
+    /**
+     * 勝ち、負け、あいこの回数をカウントするための初期値
+     * Jadge.javaから受け取ったString型の結果と比較するための文字列
+     */
     public void fiveBatlle(){
         System.out.println("ジャンケン５回戦！");
         int u = 0;
