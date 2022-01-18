@@ -10,10 +10,9 @@ import java.util.Scanner;
 class UserTest {
     @Test 
     public void User(){
-
-        int t = 3;
+        System.out.println("※エラー※0~2を記入してね");
         Scanner write = new Scanner (System.in);
-        assertNotEquals(write.nextInt(3), (t));
+        assertEquals(write.nextInt(3), "※エラー※0~2を記入してね");
         write.close();
     }
 
